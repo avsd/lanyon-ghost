@@ -50,9 +50,7 @@
       </nav>
 
       <div class="sidebar-item">
-        <p>
-          &copy; {{date format="YYYY"}}. All rights reserved.
-        </p>
+        
       </div>
     </div>
 
@@ -62,9 +60,8 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="http://davidavs.com" title="Home">{{@blog.title}}</a>
-            |
-            <a href="{{@blog.url}}" title="Blog">{{@blog.description}}</a>
+            <a href="{{@blog.url}}" title="Home">{{@blog.title}}</a>
+            <small>{{@blog.description}}</small>
           </h3>
         </div>
       </div>
