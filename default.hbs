@@ -47,9 +47,9 @@
           <a class="sidebar-nav-item sidebar-nav-" href="http://davidavs.com/contact/">Contact</a>
 
         {{! The code below dynamically generates a sidebar nav of posts tagged as static pages. }}
-        {{ #foreach @blog.navigation}}
+        {{#foreach @blog.navigation}}
           <a class="sidebar-nav-item sidebar-nav-{{slug}}" href="{{url absolute="true"}}">{{label}}</a>
-        {{ /foreach}}
+        {{/foreach}}
       </nav>
 
       <div class="sidebar-item">
